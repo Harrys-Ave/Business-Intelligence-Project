@@ -33,11 +33,16 @@ A view was created in MySQL to display sales performance across different car br
 ### 5. Pentaho Report
 A report was generated in Pentaho Report Designer, providing insights into the service locations associated with a specific car brand. This report supports better after-sales service management and customer satisfaction tracking.
 
-## Files
-- **CarCompany_DW.mwb**: Data Warehouse schema file.
-- **CarCompanyOLTP_MODEL.mwb**: OLTP model file.
-- **ETL Files (.ktr)**: ETL transformation files for each dimension.
-- **MySQL View and Report Files**: SQL view and Pentaho report files for data presentation.
+### 4. Data and Files
+- **CSV Files**: 
+  - `AuthorizedService.csv`
+  - `CarDealer.csv`
+  - `Customer.csv`
+  - `Employee.csv`
+  - `Order.csv`
+  - `Product.csv`
+- **Report**: `Business Intelligence Project.pdf` provides a detailed analysis and documentation of the project.
+- **OLTP and DW Schemas**: Files `CarCompanyOLTP_MODEL.mwb` and `CarCompany_DW.mwb` contain schema diagrams for the OLTP and DW models.
 
 ## Skills and Technologies
 - **Skills**: Data Warehousing, ETL Processes, Business Intelligence, Star Schema Modeling, Reporting
